@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="../static/css/header.css">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">My Store</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+  
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <div class="dropdown">
+          <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Shopping Cart
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <div id="cart">
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <button type="button" class="btn btn-outline-success">Sign up</button>
+      </li>
+      <li class="nav-item">
+        <button type="button" class="btn btn-outline-success">Log in</button>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- <script type="text/javascript" src='../static/js/cart.js'>
+</script> -->
+<script>
+  var url = "../static/js/cart.js";
+  $.getScript(url);
+</script>

@@ -1,0 +1,63 @@
+li.nav-item{
+  margin-left:10px;
+}
+.dropdown-menu.show {
+  width: 330px;
+  height:auto;
+  padding:10px;
+}
+
+.product-card {
+  float: left;
+  margin: 0 auto;
+  position: block;
+  width: 30%;
+  min-height: 300px;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-weight: bold;
+  margin:10px;
+}
+
+.card {
+  overflow: hidden;
+  background-color: #ffffff;
+  border-radius: 2px;
+  display: block;
+  min-height: 300px;;
+  position: relative;
+  width: 100%;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  .Transition();
+}
+
+.card:hover {
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.welcome{
+  text-align: center;
+  padding-top:30px;
+}
+
+button.btn.btn-primary{
+  width: 100%;
+}
+
+p{
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+.p-normal{
+  font-style: normal;
+  font-weight: normal;
+  font-family: inherit;
+}
+input.btn.btn-primary{
+  width: 100%;
+}
